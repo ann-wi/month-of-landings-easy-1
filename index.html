@@ -10,18 +10,82 @@
   <body class="page">
     <header class="header">
       <div class="header__logo"></div>
-      <h2 class="header__text">Вступайте в клуб</h2>
-      <button class="header__registartion-button" type="button">
-        Зарегистрироваться
-      </button>
+      <div class="header__join">
+        <a class="header__text" href="#">Вступайте в клуб <img src="./images/arrow-link.svg" alt="иконка ссылки"></a>
+        <button class="button__registration" type="button">Зарегистрироваться</button>
+      </div>
     </header>
     <main class="main">
-      <section class="club-intro"></section>
-      <section class="team"></section>
-      <section class="competitions"></section>
-      <section class="registration"></section>
+      <section class="intro">
+        <div class="intro__column">
+          <div class="intro__label">
+            <h3 class="intro__label-text">Клуб</h3>
+          </div>
+        <h1 class="intro__title">Правильные шахматы</h1>
+        <p class="intro__text">
+          Приходите к нам, играть в шахматы! Сразитесь классическом поединке,
+          блиц состязании и бою с гройсмейстером.
+        </p>
+        <img src="./images/chess-board_purple.png" alt="" class="intro__chess-board">
+        </div>
+        <img class="intro__picture" src="./images/intro__picture.png" alt="" />
+      </section>
+      <section class="team">
+        <h2 class="team__title">Наша команда</h2>
+        <p class="team__text">
+          Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними
+          играть — одно удовольствие!
+        </p>
+        <div class="team__cards">
+          <div class="team__card">
+            <img src="./images/team__card-1.png" alt="Андрей" class="team__card-image">
+            <h3 class="team__card-name">Андрей</h3>
+            <p class="team__card-occupation">Шахматист, писатель.</p>
+          </div>
+          <div class="team__card">
+            <img src="./images/team__card-2.png" alt="Никита" class="team__card-image"/>
+            <h3 class="team__card-name">Никита</h3>
+            <p class="team__card-occupation">Шахматист, кулинар.</p>
+          </div>
+          <div class="team__card">
+            <img src="./images/team__card-3.png" alt="Алексей" class="team__card-image"/>
+            <h3 class="team__card-name">Алексей</h3>
+            <p class="team__card-occupation">Шахматист, геймер.</p>
+          </div>
+        </div>
+      </section>
+      <section class ="join-team">
+        <img class="join-team__picture" src="./images/join-team__picture.png" alt=''/>
+        <h2 class="join-team__title">Хочешь в комаду?</h2>
+        <p class="join-team__text">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
+      </section>
+      <section class="competitions">
+        <h2 class="competitions__title">Сражения</h2>
+        <p class="competitions__text">
+          Сражайтесь в парах и приятно проводите время. Если хотите прокачать
+          свои навыки — сыграйте с нашими шахматистами.
+        </p>
+        <div class="competitions__cards">
+          <img src="./images/competitions__photo-1.png" alt="" class="competitions__card-image">
+          <img src="./images/competitions__photo-2.png" alt="" class="competitions__card-image">
+          <img src="./images/competitions__photo-3.png" alt="" class="competitions__card-image">
+        </div>
+        <img src="./images/competitions__picture.png" alt="" class="competitions__picture">
+        <img src="./images/chess-board_green.png" alt="" class="competitions__chess-board">
+      </section>
     </main>
-    <footer class="footer"></footer>
-    <div class="pop-up"></div>
+    <footer class="footer">
+      <div class="footer__logo"></div>
+      <button class="button__registration" type="button">Зарегистрироваться</button>
+    </footer>
+    <div class="pop-up">
+      <div class="pop-up__container">
+        <form class="form">
+          <h2 class="form__heading">Регистрация</h2>
+          <fieldset class="form__input-container"></fieldset>
+        </form>
+      </form>
+      </div>
+    </div>
   </body>
 </html>

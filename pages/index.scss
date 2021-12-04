@@ -1,0 +1,44 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/fonts.css";
+@import "../blocks/variables.scss";
+@import "../blocks/page/page.scss";
+
+@import "../blocks/header/header.scss";
+@import "../blocks/header/__logo/header__logo.scss";
+@import "../blocks/header/__join/header__join.scss";
+@import "../blocks/header/__text/header__text.scss";
+@import "../blocks/button/button__registration.scss";
+
+@import "../blocks/intro/intro.scss";
+@import "../blocks/intro/__column/intro__column.scss";
+@import "../blocks/intro/__label/intro__label.scss";
+@import "../blocks/intro/__label-text/intro__label-text.scss";
+@import "../blocks/intro/__title/intro__title.scss";
+@import "../blocks/intro/__text/intro__text.scss";
+@import "../blocks/intro/__chess-board/intro__chess-board.scss";
+@import "../blocks/intro/__picture/intro__picture.scss";
+
+@import "../blocks/team/team.scss";
+@import "../blocks/team/__title/team__title.scss";
+@import "../blocks/team/__text/team__text.scss";
+@import "../blocks/team/__cards/team__cards.scss";
+@import "../blocks/team/__card/team__card.scss";
+@import "../blocks/team/__card-image/team__card-image.scss";
+@import "../blocks/team/__card-name/team__card-name.scss";
+@import "../blocks/team/__card-occupation/team__card-occupation.scss";
+
+@import "../blocks/join-team/join-team.scss";
+@import "../blocks/join-team/__picture/join-team__picture.scss";
+@import "../blocks/join-team/__title/join-team__title.scss";
+@import "../blocks/join-team/__text/join-team__text.scss";
+
+@import "../blocks/competitions/competitions.scss";
+@import "../blocks/competitions/__title/competitions__title.scss";
+@import "../blocks/competitions/__text/competitions__text.scss";
+@import "../blocks/competitions/__cards/competitions__cards.scss";
+@import "../blocks/competitions/__card-image/competitions__card-image.scss";
+@import "../blocks/competitions/__picture/competitions__picture.scss";
+@import "../blocks/competitions/__chess-board/competitions__chess-board.scss";
+
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/__logo/footer__logo.scss";

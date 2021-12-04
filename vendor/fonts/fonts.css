@@ -1,25 +1,26 @@
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('./NotoSans-Regular.woff2') format('woff2'),
-    url('./NotoSans-Regular.woff') format('woff'),
-    url('./NotoSans-Regular.ttf') format('truetype'),
-    url('./NotoSans-Regular.eot') format('eot');
+  font-family: "Noto Sans";
+  src: url("./NotoSans.woff2") format("woff2"),
+    url("./NotoSans.woff") format("woff");
   font-weight: 400;
-}
-@font-face {
-  font-family: 'Noto Sans';
-  src: url('./NotoSans-Medium.woff2') format('woff2'),
-    url('./NotoSans-Medium.woff') format('woff'),
-    url('./NotoSans-Medium.ttf') format('truetype'),
-    url('./NotoSans-Medium.eot') format('eot');
-  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans';
-  src: url('./NotoSans-SemiBold.woff2') format('woff2'),
-  url('./NotoSans-SemiBold.woff') format('woff'),
-  url('./NotoSans-SemiBold.ttf') format('truetype'),
-  url('./NotoSans-SemiBold.eot') format('eot');
+  font-family: "Noto Sans";
+  src: url("./NotoSans-Medium.woff2") format("woff2"),
+    url("./NotoSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./NotoSans-SemiBold.woff2") format("woff2"),
+    url("./NotoSans-SemiBold.woff") format("woff");
   font-family: 600;
+  font-style: normal;
+  font-display: swap;
 }
